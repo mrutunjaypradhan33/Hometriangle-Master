@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>chrometest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 16 10:44:39 IST 2025</td>
+<td>Started on:</td><td>Sat Aug 16 12:34:40 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>232 seconds (232140 ms)</td>
+<tr><td>Total time:</td><td>261 seconds (261900 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,94 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC008_ContactUsPage.login()'><b>login</b><br>Test class: testCases.TC008_ContactUsPage<br/>
+<a href="#Output-1729995001" onClick='toggleBox("Output-1729995001", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1729995001" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1729995001">
+Clicked on Profile logo...<br/>
+Providing moblile number...<br/>
+Providing OTP...<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testBase.BaseClass.login(BaseClass.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1729995001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1729995001'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testBase.BaseClass.login(BaseClass.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>22</td>
+<td>testCases.TC008_ContactUsPage@142269f2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC008_ContactUsPage.logout()'><b>logout</b><br>Test class: testCases.TC008_ContactUsPage</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC008_ContactUsPage@142269f2</td></tr>
+<tr>
+<td title='testCases.TC008_ContactUsPage.teardown()'><b>teardown</b><br>Test class: testCases.TC008_ContactUsPage</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC008_ContactUsPage@142269f2</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,101 +164,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 9,999,999,999, 111,111, Valid<br/>
-<a href="#Output-2133547083" onClick='toggleBox("Output-2133547083", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2133547083" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2133547083">
-******* Starting TC002_SignInDDT ******<br/>
-Clicked on Profile logo...<br/>
-Providing moblile number...<br/>
-Providing otp...<br/>
-Validating expected message...<br/>
-Login successfull...<br/>
-******* Finished TC002_SignInDDT ******<br/>
-</div>
-</td>
-<td></td>
-<td>13</td>
-<td>testCases.TC002_SigninDDT@70f59913</td></tr>
-<tr>
-<td title='testCases.TC012_NearMePage.verify_signin()'><b>verify_signin</b><br>Test class: testCases.TC012_NearMePage<br/>
-<a href="#Output-330472244" onClick='toggleBox("Output-330472244", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-330472244" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-330472244">
-****** Stated TC012_NearMePage ******<br/>
-Capture the Title...<br/>
-Validate the title...<br/>
-Successfully navigate to Near me page...<br/>
-******* Finshed TC012_NearMePage ******<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC012_NearMePage@331acdad</td></tr>
-<tr>
-<td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 7,465,787,747, 111,111, Invalid<br/>
-<a href="#Output-276922182" onClick='toggleBox("Output-276922182", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-276922182" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-276922182">
-******* Starting TC002_SignInDDT ******<br/>
-Clicked on Profile logo...<br/>
-Providing moblile number...<br/>
-Providing otp...<br/>
-Validating expected message...<br/>
-Invalid creadential...<br/>
-******* Finished TC002_SignInDDT ******<br/>
-</div>
-</td>
-<td></td>
-<td>16</td>
-<td>testCases.TC002_SigninDDT@70f59913</td></tr>
-<tr>
-<td title='testCases.TC003_SearchSearvice.search()'><b>search</b><br>Test class: testCases.TC003_SearchSearvice<br/>
-<a href="#Output-572302485" onClick='toggleBox("Output-572302485", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-572302485" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-572302485">
-******* Starting TC003_SearchSearvice ******<br/>
-Search for service...<br/>
-Validating expected message...<br/>
-******* Finshed TC003_SearchSearvice ******<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC003_SearchSearvice@77258e59</td></tr>
-<tr>
 <td title='testCases.TC001_SignInTest.verify_signin()'><b>verify_signin</b><br>Test class: testCases.TC001_SignInTest</td>
 <td></td>
 <td>0</td>
 <td>testCases.TC001_SignInTest@3f270e0a</td></tr>
 <tr>
 <td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 8,575,645,364, 313,334, Invalid<br/>
-<a href="#Output-1137180298" onClick='toggleBox("Output-1137180298", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-505316221" onClick='toggleBox("Output-505316221", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1137180298" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1137180298">
-******* Starting TC002_SignInDDT ******<br/>
-Clicked on Profile logo...<br/>
-Providing moblile number...<br/>
-Providing otp...<br/>
-Validating expected message...<br/>
-Invalid creadential...<br/>
-******* Finished TC002_SignInDDT ******<br/>
-</div>
-</td>
-<td></td>
-<td>16</td>
-<td>testCases.TC002_SigninDDT@70f59913</td></tr>
-<tr>
-<td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 9,078,930,623, 113,434, Invalid<br/>
-<a href="#Output-40829249" onClick='toggleBox("Output-40829249", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-40829249" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-40829249">
+<a href="#Output-505316221" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-505316221">
 ******* Starting TC002_SignInDDT ******<br/>
 Clicked on Profile logo...<br/>
 Providing moblile number...<br/>
@@ -184,11 +187,43 @@ Invalid creadential...<br/>
 <td>17</td>
 <td>testCases.TC002_SigninDDT@70f59913</td></tr>
 <tr>
-<td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 9,999,999,999, 111,111, Valid<br/>
-<a href="#Output-1993191331" onClick='toggleBox("Output-1993191331", this, "Show output", "Hide output");'>Show output</a>
+<td title='testCases.TC003_SearchSearvice.search()'><b>search</b><br>Test class: testCases.TC003_SearchSearvice<br/>
+<a href="#Output-1632909815" onClick='toggleBox("Output-1632909815", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1993191331" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1993191331">
+<a href="#Output-1632909815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1632909815">
+******* Starting TC003_SearchSearvice ******<br/>
+Search for service...<br/>
+Validating expected message...<br/>
+******* Finshed TC003_SearchSearvice ******<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC003_SearchSearvice@77258e59</td></tr>
+<tr>
+<td title='testCases.TC007_PaymentPage.paymentPage()'><b>paymentPage</b><br>Test class: testCases.TC007_PaymentPage<br/>
+<a href="#Output-711135305" onClick='toggleBox("Output-711135305", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-711135305" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-711135305">
+****** Stated TC0007_PaymentPage *****<br/>
+click on profile logo...<br/>
+click on profile link...<br/>
+Click on payment page link...<br/>
+Validating expected page...<br/>
+****** Finshed TC0007_PaymentPage *****<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC007_PaymentPage@253d9f73</td></tr>
+<tr>
+<td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 9,999,999,999, 111,111, Valid<br/>
+<a href="#Output-929066990" onClick='toggleBox("Output-929066990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-929066990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-929066990">
 ******* Starting TC002_SignInDDT ******<br/>
 Clicked on Profile logo...<br/>
 Providing moblile number...<br/>
@@ -199,46 +234,48 @@ Login successfull...<br/>
 </div>
 </td>
 <td></td>
-<td>13</td>
+<td>14</td>
 <td>testCases.TC002_SigninDDT@70f59913</td></tr>
 <tr>
-<td title='testCases.TC006_PaymentHistoryPage.paymentHistory()'><b>paymentHistory</b><br>Test class: testCases.TC006_PaymentHistoryPage<br/>
-<a href="#Output-1022680775" onClick='toggleBox("Output-1022680775", this, "Show output", "Hide output");'>Show output</a>
+<td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 9,078,930,623, 113,434, Invalid<br/>
+<a href="#Output-244428576" onClick='toggleBox("Output-244428576", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1022680775" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1022680775">
-****** Stated TC006_PaymentHistoryPage ******<br/>
-Click on profile Logo...<br/>
-Click on Payment History Page...<br/>
-Validating expected page...<br/>
+<a href="#Output-244428576" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-244428576">
+******* Starting TC002_SignInDDT ******<br/>
+Clicked on Profile logo...<br/>
+Providing moblile number...<br/>
+Providing otp...<br/>
+Validating expected message...<br/>
+Invalid creadential...<br/>
+******* Finished TC002_SignInDDT ******<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>testCases.TC006_PaymentHistoryPage@7e3181aa</td></tr>
+<td>18</td>
+<td>testCases.TC002_SigninDDT@70f59913</td></tr>
 <tr>
-<td title='testCases.TC007_PaymentPage.paymentPage()'><b>paymentPage</b><br>Test class: testCases.TC007_PaymentPage<br/>
-<a href="#Output-14980151" onClick='toggleBox("Output-14980151", this, "Show output", "Hide output");'>Show output</a>
+<td title='testCases.TC004_ProfilePage.profilePage()'><b>profilePage</b><br>Test class: testCases.TC004_ProfilePage<br/>
+<a href="#Output-1873947363" onClick='toggleBox("Output-1873947363", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-14980151" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-14980151">
-****** Stated TC0007_PaymentPage *****<br/>
-click on profile logo...<br/>
-click on profile link...<br/>
-Click on payment page link...<br/>
-Validating expected page...<br/>
-****** Finshed TC0007_PaymentPage *****<br/>
+<a href="#Output-1873947363" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1873947363">
+******* Starting TC004_ProfilePage ******<br/>
+Click on Profile Loga...<br/>
+Click on Profile LInk...<br/>
+Validate the expected page...<br/>
+******* Finesghed TC004_ProfilePage ******<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>testCases.TC007_PaymentPage@253d9f73</td></tr>
+<td>testCases.TC004_ProfilePage@5dcd8c7a</td></tr>
 <tr>
 <td title='testCases.TC005_MyRequestPage.myRequest()'><b>myRequest</b><br>Test class: testCases.TC005_MyRequestPage<br/>
-<a href="#Output-1531532466" onClick='toggleBox("Output-1531532466", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1408739590" onClick='toggleBox("Output-1408739590", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1531532466" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1531532466">
+<a href="#Output-1408739590" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1408739590">
 ******* Starting TC005_MyRequest ******<br/>
 Click on Profile Loga...<br/>
 Click on My Request Link...<br/>
@@ -250,36 +287,132 @@ Validating expected page...<br/>
 <td>1</td>
 <td>testCases.TC005_MyRequestPage@2250b9f2</td></tr>
 <tr>
-<td title='testCases.TC008_ContactUsPage.verify_ContactUs()'><b>verify_ContactUs</b><br>Test class: testCases.TC008_ContactUsPage<br/>
-<a href="#Output-980707786" onClick='toggleBox("Output-980707786", this, "Show output", "Hide output");'>Show output</a>
+<td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 9,999,999,999, 111,111, Valid<br/>
+<a href="#Output-2067076166" onClick='toggleBox("Output-2067076166", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-980707786" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-980707786">
-****** Stated TC008_ContactUsPage ******<br/>
-Click to contactUs page...<br/>
+<a href="#Output-2067076166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2067076166">
+******* Starting TC002_SignInDDT ******<br/>
+Clicked on Profile logo...<br/>
+Providing moblile number...<br/>
+Providing otp...<br/>
 Validating expected message...<br/>
-****** fineshed TC008_ContactUsPage ******<br/>
+Login successfull...<br/>
+******* Finished TC002_SignInDDT ******<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>testCases.TC008_ContactUsPage@142269f2</td></tr>
+<td>14</td>
+<td>testCases.TC002_SigninDDT@70f59913</td></tr>
 <tr>
-<td title='testCases.TC004_ProfilePage.profilePage()'><b>profilePage</b><br>Test class: testCases.TC004_ProfilePage<br/>
-<a href="#Output-26101073" onClick='toggleBox("Output-26101073", this, "Show output", "Hide output");'>Show output</a>
+<td title='testCases.TC002_SigninDDT.verify_signinDDT()'><b>verify_signinDDT</b><br>Test class: testCases.TC002_SigninDDT<br>Parameters: 7,465,787,747, 111,111, Invalid<br/>
+<a href="#Output-1770453310" onClick='toggleBox("Output-1770453310", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-26101073" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-26101073">
-******* Starting TC004_ProfilePage ******<br/>
-Click on Profile Loga...<br/>
-Click on Profile LInk...<br/>
-Validate the expected page...<br/>
-******* Finesghed TC004_ProfilePage ******<br/>
+<a href="#Output-1770453310" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1770453310">
+******* Starting TC002_SignInDDT ******<br/>
+Clicked on Profile logo...<br/>
+Providing moblile number...<br/>
+Providing otp...<br/>
+Validating expected message...<br/>
+Invalid creadential...<br/>
+******* Finished TC002_SignInDDT ******<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC002_SigninDDT@70f59913</td></tr>
+<tr>
+<td title='testCases.TC006_PaymentHistoryPage.paymentHistory()'><b>paymentHistory</b><br>Test class: testCases.TC006_PaymentHistoryPage<br/>
+<a href="#Output-1238642607" onClick='toggleBox("Output-1238642607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1238642607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1238642607">
+****** Stated TC006_PaymentHistoryPage ******<br/>
+Click on profile Logo...<br/>
+Click on Payment History Page...<br/>
+Validating expected page...<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>testCases.TC004_ProfilePage@5dcd8c7a</td></tr>
+<td>testCases.TC006_PaymentHistoryPage@7e3181aa</td></tr>
+<tr>
+<td title='testCases.TC012_NearMePage.verify_signin()'><b>verify_signin</b><br>Test class: testCases.TC012_NearMePage<br/>
+<a href="#Output-1721510663" onClick='toggleBox("Output-1721510663", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1721510663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1721510663">
+****** Stated TC012_NearMePage ******<br/>
+Capture the Title...<br/>
+Validate the title...<br/>
+Successfully navigate to Near me page...<br/>
+******* Finshed TC012_NearMePage ******<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC012_NearMePage@331acdad</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC008_ContactUsPage.verify_ContactUs()'><b>verify_ContactUs</b><br>Test class: testCases.TC008_ContactUsPage</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testBase.BaseClass.login(BaseClass.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace931163110", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace931163110'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testBase.BaseClass.login(BaseClass.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC008_ContactUsPage@142269f2</td></tr>
 </table><p>
 </body>
 </html>
