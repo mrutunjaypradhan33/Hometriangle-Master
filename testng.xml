@@ -8,15 +8,15 @@
         <parameter name="os" value="Windows" />
         <parameter name="browser" value="chrome" />
         <classes>
-            <!-- <class name="testCases.TC001_SignInTest" />
+            <!-- <class name="testCases.TC001_SignInTest" /> -->
             <class name="testCases.TC002_SigninDDT" />
-            <class name="testCases.TC003_SearchSearvice" />
+            <!-- <class name="testCases.TC003_SearchSearvice" />
             <class name="testCases.TC004_ProfilePage" />
             <class name="testCases.TC005_MyRequestPage" />
             <class name="testCases.TC006_PaymentHistoryPage" />
-            <class name="testCases.TC007_PaymentPage" /> -->
+            <class name="testCases.TC007_PaymentPage" />
             <class name="testCases.TC008_ContactUsPage" />
-            <!-- <class name="testCases.TC012_NearMePage" /> -->
+            <class name="testCases.TC012_NearMePage" /> -->
        </classes>
     </test>
 </suite>

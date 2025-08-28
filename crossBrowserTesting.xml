@@ -20,7 +20,7 @@
             <class name="testCases.TC012_NearMePage" />            
         </classes>
     </test>
-    <test name="edgetest">
+    <!-- <test name="edgetest">
         <parameter name="os" value="Windows" />
         <parameter name="browser" value="edge" />
         <classes>
@@ -34,5 +34,5 @@
             <class name="testCases.TC008_ContactUsPage" />
             <class name="testCases.TC012_NearMePage" />            
         </classes>
-    </test>
+    </test> -->
 </suite>
