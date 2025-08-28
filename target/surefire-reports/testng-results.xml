@@ -1,16 +1,394 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Browser got launched...]]>
     </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing OTP...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[succefully naviget to Home page...]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got launched...]]>
+    </line>
+    <line>
+      <![CDATA[******* Starting TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing otp...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull...]]>
+    </line>
+    <line>
+      <![CDATA[******* Finished TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[******* Starting TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing otp...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[Invalid creadential...]]>
+    </line>
+    <line>
+      <![CDATA[******* Finished TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[******* Starting TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing otp...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[Invalid creadential...]]>
+    </line>
+    <line>
+      <![CDATA[******* Finished TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[******* Starting TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing otp...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[Invalid creadential...]]>
+    </line>
+    <line>
+      <![CDATA[******* Finished TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[******* Starting TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing otp...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull...]]>
+    </line>
+    <line>
+      <![CDATA[******* Finished TC002_SignInDDT ******]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got launched...]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing OTP...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[succefully naviget to Home page...]]>
+    </line>
+    <line>
+      <![CDATA[******* Starting TC003_SearchSearvice ******]]>
+    </line>
+    <line>
+      <![CDATA[Search for service...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[******* Finshed TC003_SearchSearvice ******]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got launched...]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing OTP...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[succefully naviget to Home page...]]>
+    </line>
+    <line>
+      <![CDATA[******* Starting TC004_ProfilePage ******]]>
+    </line>
+    <line>
+      <![CDATA[Click on Profile Loga...]]>
+    </line>
+    <line>
+      <![CDATA[Click on Profile LInk...]]>
+    </line>
+    <line>
+      <![CDATA[Validate the expected page...]]>
+    </line>
+    <line>
+      <![CDATA[******* Finesghed TC004_ProfilePage ******]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got launched...]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing OTP...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[succefully naviget to Home page...]]>
+    </line>
+    <line>
+      <![CDATA[******* Starting TC005_MyRequest ******]]>
+    </line>
+    <line>
+      <![CDATA[Click on Profile Loga...]]>
+    </line>
+    <line>
+      <![CDATA[Click on My Request Link...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected page...]]>
+    </line>
+    <line>
+      <![CDATA[******* Fineshed TC005_MyRequest ******]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got launched...]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing OTP...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[succefully naviget to Home page...]]>
+    </line>
+    <line>
+      <![CDATA[****** Stated TC006_PaymentHistoryPage ******]]>
+    </line>
+    <line>
+      <![CDATA[Click on profile Logo...]]>
+    </line>
+    <line>
+      <![CDATA[Click on Payment History Page...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected page...]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got launched...]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing OTP...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[succefully naviget to Home page...]]>
+    </line>
+    <line>
+      <![CDATA[****** Stated TC0007_PaymentPage *****]]>
+    </line>
+    <line>
+      <![CDATA[click on profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[click on profile link...]]>
+    </line>
+    <line>
+      <![CDATA[Click on payment page link...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected page...]]>
+    </line>
+    <line>
+      <![CDATA[****** Finshed TC0007_PaymentPage *****]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got launched...]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Profile logo...]]>
+    </line>
+    <line>
+      <![CDATA[Providing moblile number...]]>
+    </line>
+    <line>
+      <![CDATA[Providing OTP...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[succefully naviget to Home page...]]>
+    </line>
+    <line>
+      <![CDATA[****** Stated TC008_ContactUsPage ******]]>
+    </line>
+    <line>
+      <![CDATA[Click to contactUs page...]]>
+    </line>
+    <line>
+      <![CDATA[Validating expected message...]]>
+    </line>
+    <line>
+      <![CDATA[****** fineshed TC008_ContactUsPage ******]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed...]]>
+    </line>
+    <line>
+      <![CDATA[Browser got launched...]]>
+    </line>
+    <line>
+      <![CDATA[****** Stated TC012_NearMePage ******]]>
+    </line>
+    <line>
+      <![CDATA[Capture the Title...]]>
+    </line>
+    <line>
+      <![CDATA[Validate the title...]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigate to Near me page...]]>
+    </line>
+    <line>
+      <![CDATA[******* Finshed TC012_NearMePage ******]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-08-12T10:43:14 IST" name="Suite" finished-at="2025-08-12T10:43:21 IST" duration-ms="6821">
+  <suite started-at="2025-08-28T13:46:16 IST" name="Suite" finished-at="2025-08-28T13:49:27 IST" duration-ms="191106">
     <groups>
     </groups>
-    <test started-at="2025-08-12T10:43:14 IST" name="Test" finished-at="2025-08-12T10:43:21 IST" duration-ms="6821">
-      <class name="testCases.TC008_ContactUsPage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_ContactUsPage@7862f56]" started-at="2025-08-12T10:43:15 IST" name="setup" finished-at="2025-08-12T10:43:19 IST" duration-ms="4083" status="PASS">
+    <test started-at="2025-08-28T13:46:16 IST" name="chrometest" finished-at="2025-08-28T13:49:27 IST" duration-ms="191106">
+      <class name="testCases.TC012_NearMePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_NearMePage@331acdad]" started-at="2025-08-28T13:49:25 IST" name="setup" finished-at="2025-08-28T13:49:27 IST" duration-ms="2090" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,125 +407,754 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC008_ContactUsPage@7862f56]" started-at="2025-08-12T10:43:19 IST" name="login" finished-at="2025-08-12T10:43:20 IST" duration-ms="987" status="FAIL">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[pageObjects/HomePage]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: pageObjects/HomePage
-at testBase.BaseClass.login(BaseClass.java:107)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.ClassNotFoundException: pageObjects.HomePage
-at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-... 37 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        <test-method signature="verify_signin()[pri:0, instance:testCases.TC012_NearMePage@331acdad]" started-at="2025-08-28T13:49:27 IST" name="verify_signin" finished-at="2025-08-28T13:49:27 IST" duration-ms="227" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[****** Stated TC012_NearMePage ******]]>
+            </line>
+            <line>
+              <![CDATA[Capture the Title...]]>
+            </line>
+            <line>
+              <![CDATA[Validate the title...]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigate to Near me page...]]>
+            </line>
+            <line>
+              <![CDATA[******* Finshed TC012_NearMePage ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_signin -->
+      </class> <!-- testCases.TC012_NearMePage -->
+      <class name="testCases.TC002_SigninDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@70f59913]" started-at="2025-08-28T13:46:35 IST" name="setup" finished-at="2025-08-28T13:46:38 IST" duration-ms="3105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@70f59913]" started-at="2025-08-28T13:46:40 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-08-28T13:46:51 IST" duration-ms="11902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9,999,999,999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111,111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[******* Starting TC002_SignInDDT ******]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing otp...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[Login successfull...]]>
+            </line>
+            <line>
+              <![CDATA[******* Finished TC002_SignInDDT ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_signinDDT -->
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@70f59913]" started-at="2025-08-28T13:46:51 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-08-28T13:47:08 IST" duration-ms="16183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9,078,930,623]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[113,434]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[******* Starting TC002_SignInDDT ******]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing otp...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[Invalid creadential...]]>
+            </line>
+            <line>
+              <![CDATA[******* Finished TC002_SignInDDT ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_signinDDT -->
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@70f59913]" started-at="2025-08-28T13:47:08 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-08-28T13:47:24 IST" duration-ms="16174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8,575,645,364]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[313,334]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[******* Starting TC002_SignInDDT ******]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing otp...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[Invalid creadential...]]>
+            </line>
+            <line>
+              <![CDATA[******* Finished TC002_SignInDDT ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_signinDDT -->
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@70f59913]" started-at="2025-08-28T13:47:24 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-08-28T13:47:40 IST" duration-ms="16052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7,465,787,747]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111,111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[******* Starting TC002_SignInDDT ******]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing otp...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[Invalid creadential...]]>
+            </line>
+            <line>
+              <![CDATA[******* Finished TC002_SignInDDT ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_signinDDT -->
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@70f59913]" started-at="2025-08-28T13:47:40 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-08-28T13:47:52 IST" duration-ms="11839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9,999,999,999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111,111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[******* Starting TC002_SignInDDT ******]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing otp...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[Login successfull...]]>
+            </line>
+            <line>
+              <![CDATA[******* Finished TC002_SignInDDT ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_signinDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_SigninDDT@70f59913]" started-at="2025-08-28T13:47:52 IST" name="teardown" finished-at="2025-08-28T13:47:52 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_SigninDDT -->
+      <class name="testCases.TC007_PaymentPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_PaymentPage@253d9f73]" started-at="2025-08-28T13:48:53 IST" name="setup" finished-at="2025-08-28T13:48:54 IST" duration-ms="905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC007_PaymentPage@253d9f73]" started-at="2025-08-28T13:48:54 IST" name="login" finished-at="2025-08-28T13:49:07 IST" duration-ms="12497" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing OTP...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[succefully naviget to Home page...]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verify_ContactUs()[pri:0, instance:testCases.TC008_ContactUsPage@7862f56]" started-at="2025-08-12T10:43:20 IST" name="verify_ContactUs" finished-at="2025-08-12T10:43:20 IST" duration-ms="2" status="SKIP">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[pageObjects/HomePage]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: pageObjects/HomePage
-at testBase.BaseClass.login(BaseClass.java:107)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.ClassNotFoundException: pageObjects.HomePage
-at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-... 37 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        <test-method signature="paymentPage()[pri:0, instance:testCases.TC007_PaymentPage@253d9f73]" started-at="2025-08-28T13:49:07 IST" name="paymentPage" finished-at="2025-08-28T13:49:08 IST" duration-ms="1242" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[****** Stated TC0007_PaymentPage *****]]>
+            </line>
+            <line>
+              <![CDATA[click on profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[click on profile link...]]>
+            </line>
+            <line>
+              <![CDATA[Click on payment page link...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected page...]]>
+            </line>
+            <line>
+              <![CDATA[****** Finshed TC0007_PaymentPage *****]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verify_ContactUs -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC008_ContactUsPage@7862f56]" started-at="2025-08-12T10:43:21 IST" name="logout" finished-at="2025-08-12T10:43:21 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- paymentPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC007_PaymentPage@253d9f73]" started-at="2025-08-28T13:49:08 IST" name="logout" finished-at="2025-08-28T13:49:09 IST" duration-ms="789" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Logout successfull...]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC008_ContactUsPage@7862f56]" started-at="2025-08-12T10:43:21 IST" name="teardown" finished-at="2025-08-12T10:43:21 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC007_PaymentPage@253d9f73]" started-at="2025-08-28T13:49:09 IST" name="teardown" finished-at="2025-08-28T13:49:09 IST" duration-ms="348" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Browser got closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC007_PaymentPage -->
+      <class name="testCases.TC008_ContactUsPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_ContactUsPage@142269f2]" started-at="2025-08-28T13:49:09 IST" name="setup" finished-at="2025-08-28T13:49:10 IST" duration-ms="915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC008_ContactUsPage@142269f2]" started-at="2025-08-28T13:49:10 IST" name="login" finished-at="2025-08-28T13:49:22 IST" duration-ms="12227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing OTP...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[succefully naviget to Home page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verify_ContactUs()[pri:0, instance:testCases.TC008_ContactUsPage@142269f2]" started-at="2025-08-28T13:49:22 IST" name="verify_ContactUs" finished-at="2025-08-28T13:49:24 IST" duration-ms="1257" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[****** Stated TC008_ContactUsPage ******]]>
+            </line>
+            <line>
+              <![CDATA[Click to contactUs page...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[****** fineshed TC008_ContactUsPage ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_ContactUs -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC008_ContactUsPage@142269f2]" started-at="2025-08-28T13:49:24 IST" name="logout" finished-at="2025-08-28T13:49:25 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfull...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC008_ContactUsPage@142269f2]" started-at="2025-08-28T13:49:25 IST" name="teardown" finished-at="2025-08-28T13:49:25 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed...]]>
+            </line>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC008_ContactUsPage -->
-    </test> <!-- Test -->
+      <class name="testCases.TC005_MyRequestPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_MyRequestPage@2250b9f2]" started-at="2025-08-28T13:48:23 IST" name="setup" finished-at="2025-08-28T13:48:24 IST" duration-ms="939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC005_MyRequestPage@2250b9f2]" started-at="2025-08-28T13:48:24 IST" name="login" finished-at="2025-08-28T13:48:36 IST" duration-ms="12229" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing OTP...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[succefully naviget to Home page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="myRequest()[pri:0, instance:testCases.TC005_MyRequestPage@2250b9f2]" started-at="2025-08-28T13:48:36 IST" name="myRequest" finished-at="2025-08-28T13:48:37 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[******* Starting TC005_MyRequest ******]]>
+            </line>
+            <line>
+              <![CDATA[Click on Profile Loga...]]>
+            </line>
+            <line>
+              <![CDATA[Click on My Request Link...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected page...]]>
+            </line>
+            <line>
+              <![CDATA[******* Fineshed TC005_MyRequest ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- myRequest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC005_MyRequestPage@2250b9f2]" started-at="2025-08-28T13:48:37 IST" name="logout" finished-at="2025-08-28T13:48:38 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfull...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC005_MyRequestPage@2250b9f2]" started-at="2025-08-28T13:48:38 IST" name="teardown" finished-at="2025-08-28T13:48:38 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC005_MyRequestPage -->
+      <class name="testCases.TC004_ProfilePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_ProfilePage@5dcd8c7a]" started-at="2025-08-28T13:48:08 IST" name="setup" finished-at="2025-08-28T13:48:08 IST" duration-ms="783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC004_ProfilePage@5dcd8c7a]" started-at="2025-08-28T13:48:08 IST" name="login" finished-at="2025-08-28T13:48:21 IST" duration-ms="12977" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing OTP...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[succefully naviget to Home page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="profilePage()[pri:0, instance:testCases.TC004_ProfilePage@5dcd8c7a]" started-at="2025-08-28T13:48:21 IST" name="profilePage" finished-at="2025-08-28T13:48:22 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[******* Starting TC004_ProfilePage ******]]>
+            </line>
+            <line>
+              <![CDATA[Click on Profile Loga...]]>
+            </line>
+            <line>
+              <![CDATA[Click on Profile LInk...]]>
+            </line>
+            <line>
+              <![CDATA[Validate the expected page...]]>
+            </line>
+            <line>
+              <![CDATA[******* Finesghed TC004_ProfilePage ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- profilePage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC004_ProfilePage@5dcd8c7a]" started-at="2025-08-28T13:48:22 IST" name="logout" finished-at="2025-08-28T13:48:23 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfull...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_ProfilePage@5dcd8c7a]" started-at="2025-08-28T13:48:23 IST" name="teardown" finished-at="2025-08-28T13:48:23 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC004_ProfilePage -->
+      <class name="testCases.TC001_SignInTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_SignInTest@3f270e0a]" started-at="2025-08-28T13:46:16 IST" name="setup" finished-at="2025-08-28T13:46:21 IST" duration-ms="4260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC001_SignInTest@3f270e0a]" started-at="2025-08-28T13:46:21 IST" name="login" finished-at="2025-08-28T13:46:34 IST" duration-ms="12903" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing OTP...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[succefully naviget to Home page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verify_signin()[pri:0, instance:testCases.TC001_SignInTest@3f270e0a]" started-at="2025-08-28T13:46:34 IST" name="verify_signin" finished-at="2025-08-28T13:46:34 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_signin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC001_SignInTest@3f270e0a]" started-at="2025-08-28T13:46:34 IST" name="logout" finished-at="2025-08-28T13:46:34 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfull...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_SignInTest@3f270e0a]" started-at="2025-08-28T13:46:34 IST" name="teardown" finished-at="2025-08-28T13:46:35 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_SignInTest -->
+      <class name="testCases.TC006_PaymentHistoryPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_PaymentHistoryPage@7e3181aa]" started-at="2025-08-28T13:48:38 IST" name="setup" finished-at="2025-08-28T13:48:39 IST" duration-ms="959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC006_PaymentHistoryPage@7e3181aa]" started-at="2025-08-28T13:48:39 IST" name="login" finished-at="2025-08-28T13:48:51 IST" duration-ms="12236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing OTP...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[succefully naviget to Home page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="paymentHistory()[pri:0, instance:testCases.TC006_PaymentHistoryPage@7e3181aa]" started-at="2025-08-28T13:48:51 IST" name="paymentHistory" finished-at="2025-08-28T13:48:52 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[****** Stated TC006_PaymentHistoryPage ******]]>
+            </line>
+            <line>
+              <![CDATA[Click on profile Logo...]]>
+            </line>
+            <line>
+              <![CDATA[Click on Payment History Page...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- paymentHistory -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC006_PaymentHistoryPage@7e3181aa]" started-at="2025-08-28T13:48:52 IST" name="logout" finished-at="2025-08-28T13:48:53 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfull...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC006_PaymentHistoryPage@7e3181aa]" started-at="2025-08-28T13:48:53 IST" name="teardown" finished-at="2025-08-28T13:48:53 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC006_PaymentHistoryPage -->
+      <class name="testCases.TC003_SearchSearvice">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_SearchSearvice@77258e59]" started-at="2025-08-28T13:47:52 IST" name="setup" finished-at="2025-08-28T13:47:53 IST" duration-ms="885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC003_SearchSearvice@77258e59]" started-at="2025-08-28T13:47:53 IST" name="login" finished-at="2025-08-28T13:48:05 IST" duration-ms="12210" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Profile logo...]]>
+            </line>
+            <line>
+              <![CDATA[Providing moblile number...]]>
+            </line>
+            <line>
+              <![CDATA[Providing OTP...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[succefully naviget to Home page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="search()[pri:0, instance:testCases.TC003_SearchSearvice@77258e59]" started-at="2025-08-28T13:48:05 IST" name="search" finished-at="2025-08-28T13:48:06 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[******* Starting TC003_SearchSearvice ******]]>
+            </line>
+            <line>
+              <![CDATA[Search for service...]]>
+            </line>
+            <line>
+              <![CDATA[Validating expected message...]]>
+            </line>
+            <line>
+              <![CDATA[******* Finshed TC003_SearchSearvice ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC003_SearchSearvice@77258e59]" started-at="2025-08-28T13:48:06 IST" name="logout" finished-at="2025-08-28T13:48:07 IST" duration-ms="900" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfull...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_SearchSearvice@77258e59]" started-at="2025-08-28T13:48:07 IST" name="teardown" finished-at="2025-08-28T13:48:08 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC003_SearchSearvice -->
+    </test> <!-- chrometest -->
   </suite> <!-- Suite -->
 </testng-results>
