@@ -13,9 +13,9 @@ public class Profilepage extends BasePage {
 
     public void validationMyrequest(String s) {
         if (s.equals("https://hometriangle.com/dashboard/projects")) {
-            System.out.println("successfully naviget to My request page ...");
+            System.out.println("Successfully naviget to My request page ...");
         } else {
-            System.out.println("naviget Unsuccessful to My request page...");
+            System.out.println("Naviget Unsuccessful to My request page...");
             Assert.assertTrue(false);
         }
     }

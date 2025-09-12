@@ -34,10 +34,10 @@ public class HomePage extends BasePage {
     }
 
     public void validation(String a) {
-        if (a.equals("https://hometriangle.com/")) {
+        if (a.equals("https://hometriangle.com/bangalore")) {
             System.out.println("Successfully naviget to Hometriangle...");
         } else {
-            System.out.println("Un successful naviget to HOmetriangle...");
+            System.out.println("Unsuccessful naviget to HOmetriangle...");
             Assert.assertTrue(false);
         }
     }

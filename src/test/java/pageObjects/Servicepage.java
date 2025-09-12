@@ -12,10 +12,10 @@ public class Servicepage extends BasePage {
     }
 
     public void validation(String v) {
-        if (v.equals("https://hometriangle.com/bangalore/house-cleaning")) {
-            System.out.println("successfully Naviget to House cleaning page...");
+        if (v.equals("https://hometriangle.com/bangalore/house-cleaning?cart=true")) {
+            System.out.println("Successfully Naviget to House cleaning page...");
         } else {
-            System.out.println("Unsuccessful Naviget to House cleaning page...");
+            System.out.println("Naviget Unsuccessful to House cleaning page...");
             Assert.assertTrue(false);
         }
     }

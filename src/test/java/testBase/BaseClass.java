@@ -39,7 +39,6 @@ public class BaseClass {
 	public static WebDriver driver;
 	public Properties p;
 
-
 	@BeforeClass
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
@@ -50,7 +49,6 @@ public class BaseClass {
 				"C:\\Users\\DELL\\.vscode\\hometriangle\\hometriangle\\src\\test\\resouces\\config.properties");
 		p = new Properties();
 		p.load(file);
-
 
 		if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
 			DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -106,9 +104,7 @@ public class BaseClass {
 		driver.get(p.getProperty("appURL"));
 		HomePage hp = new HomePage(driver);
 		hp.validation(driver.getCurrentUrl());
-		hp.clickLocation();
-		hp.clickCity();
-		Thread.sleep(6000);
+		// Thread.sleep(3000);
 		hp.clickProfile();
 		Reporter.log("Clicked on Profile logo...", true);
 
@@ -127,7 +123,7 @@ public class BaseClass {
 
 		LoginWithSession lw = new LoginWithSession(driver);
 		lw.validation(driver.getTitle());
-		Reporter.log("succefully naviget to Home page...");
+		Reporter.log("Succefully naviget to Home page...");
 		 } catch (Exception e) {
             Assert.assertTrue(false);
         }
