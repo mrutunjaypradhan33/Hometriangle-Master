@@ -11,9 +11,9 @@ public class PaymentPage extends BasePage {
 
   public void validationPaymentPage(String s) {
     if (s.equals("https://hometriangle.com/dashboard/payments/overview")) {
-      System.out.println("successfully navigate to Payment page...");
+      System.out.println("Successfully navigate to Payment page...");
     } else {
-      System.out.println("unsuccessfull naviget to payment page...");
+      System.out.println("Naviget Unsuccessfull naviget to payment page...");
       Assert.assertTrue(false);
     }
   }

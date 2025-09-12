@@ -51,9 +51,6 @@ public class TC002_SigninDDT {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(p.getProperty("appURL"));
-        HomePage hp = new HomePage(driver);
-        hp.clickLocation();
-        hp.clickCity();
 }
 
 
