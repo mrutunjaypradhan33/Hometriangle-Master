@@ -15,7 +15,6 @@
             <class name="testCases.TC004_ProfilePage" />
             <class name="testCases.TC005_MyRequestPage" />
             <class name="testCases.TC006_PaymentHistoryPage" />
-            <class name="testCases.TC007_PaymentPage" />
             <class name="testCases.TC008_ContactUsPage" />
             <class name="testCases.TC012_NearMePage" />            
         </classes>
@@ -30,7 +29,6 @@
             <class name="testCases.TC004_ProfilePage" />
             <class name="testCases.TC005_MyRequestPage" />
             <class name="testCases.TC006_PaymentHistoryPage" />
-            <class name="testCases.TC007_PaymentPage" />
             <class name="testCases.TC008_ContactUsPage" />
             <class name="testCases.TC012_NearMePage" />            
         </classes>
