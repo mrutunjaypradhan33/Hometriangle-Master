@@ -1,3 +1,0 @@
-# Created at 2025-09-30T18:26:03.753
-Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "takesScreenshot" is null
-

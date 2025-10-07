@@ -305,12 +305,12 @@
       <![CDATA[******* Finshed TC012_NearMePage ******]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-07T11:53:01 IST" name="Suite" finished-at="2025-10-07T11:55:27 IST" duration-ms="145634">
+  <suite started-at="2025-10-07T16:14:16 IST" name="Suite" finished-at="2025-10-07T16:16:36 IST" duration-ms="139689">
     <groups>
     </groups>
-    <test started-at="2025-10-07T11:53:01 IST" name="chrometest" finished-at="2025-10-07T11:55:27 IST" duration-ms="145634">
+    <test started-at="2025-10-07T16:14:16 IST" name="chrometest" finished-at="2025-10-07T16:16:36 IST" duration-ms="139689">
       <class name="testCases.TC012_NearMePage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_NearMePage@7241a47d]" started-at="2025-10-07T11:55:24 IST" name="setup" finished-at="2025-10-07T11:55:27 IST" duration-ms="2532" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_NearMePage@7241a47d]" started-at="2025-10-07T16:16:34 IST" name="setup" finished-at="2025-10-07T16:16:36 IST" duration-ms="1718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,7 +329,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_signin()[pri:0, instance:testCases.TC012_NearMePage@7241a47d]" started-at="2025-10-07T11:55:27 IST" name="verify_signin" finished-at="2025-10-07T11:55:27 IST" duration-ms="352" status="PASS">
+        <test-method signature="verify_signin()[pri:0, instance:testCases.TC012_NearMePage@7241a47d]" started-at="2025-10-07T16:16:36 IST" name="verify_signin" finished-at="2025-10-07T16:16:36 IST" duration-ms="343" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[****** Stated TC012_NearMePage ******]]>
@@ -350,7 +350,7 @@
         </test-method> <!-- verify_signin -->
       </class> <!-- testCases.TC012_NearMePage -->
       <class name="testCases.TC002_SigninDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T11:53:20 IST" name="setup" finished-at="2025-10-07T11:53:23 IST" duration-ms="2787" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T16:14:31 IST" name="setup" finished-at="2025-10-07T16:14:33 IST" duration-ms="2297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -369,7 +369,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T11:53:25 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T11:53:35 IST" duration-ms="10147" status="PASS">
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T16:14:35 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T16:14:45 IST" duration-ms="10077" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -411,7 +411,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_signinDDT -->
-        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T11:53:35 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T11:53:51 IST" duration-ms="15631" status="PASS">
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T16:14:45 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T16:15:00 IST" duration-ms="15188" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -453,7 +453,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_signinDDT -->
-        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T11:53:51 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T11:54:06 IST" duration-ms="15144" status="PASS">
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T16:15:00 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T16:15:15 IST" duration-ms="15117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -495,7 +495,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_signinDDT -->
-        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T11:54:06 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T11:54:21 IST" duration-ms="15154" status="PASS">
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T16:15:15 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T16:15:30 IST" duration-ms="15200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -537,7 +537,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_signinDDT -->
-        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T11:54:21 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T11:54:31 IST" duration-ms="9742" status="PASS">
+        <test-method signature="verify_signinDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T16:15:30 IST" name="verify_signinDDT" data-provider="LoginData" finished-at="2025-10-07T16:15:40 IST" duration-ms="9774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -579,7 +579,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_signinDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T11:54:31 IST" name="teardown" finished-at="2025-10-07T11:54:31 IST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_SigninDDT@61a88b8c]" started-at="2025-10-07T16:15:40 IST" name="teardown" finished-at="2025-10-07T16:15:40 IST" duration-ms="322" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got closed...]]>
@@ -588,7 +588,7 @@
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC002_SigninDDT -->
       <class name="testCases.TC008_ContactUsPage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T11:55:10 IST" name="setup" finished-at="2025-10-07T11:55:11 IST" duration-ms="1022" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T16:16:19 IST" name="setup" finished-at="2025-10-07T16:16:20 IST" duration-ms="911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -607,7 +607,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T11:55:11 IST" name="login" finished-at="2025-10-07T11:55:21 IST" duration-ms="9937" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T16:16:20 IST" name="login" finished-at="2025-10-07T16:16:29 IST" duration-ms="9439" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on Profile logo...]]>
@@ -626,7 +626,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verify_ContactUs()[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T11:55:21 IST" name="verify_ContactUs" finished-at="2025-10-07T11:55:23 IST" duration-ms="1404" status="PASS">
+        <test-method signature="verify_ContactUs()[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T16:16:29 IST" name="verify_ContactUs" finished-at="2025-10-07T16:16:31 IST" duration-ms="1530" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[****** Stated TC008_ContactUsPage ******]]>
@@ -642,14 +642,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_ContactUs -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T11:55:23 IST" name="logout" finished-at="2025-10-07T11:55:24 IST" duration-ms="1113" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T16:16:31 IST" name="logout" finished-at="2025-10-07T16:16:32 IST" duration-ms="1022" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout successfull...]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T11:55:24 IST" name="teardown" finished-at="2025-10-07T11:55:24 IST" duration-ms="399" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC008_ContactUsPage@1a760689]" started-at="2025-10-07T16:16:32 IST" name="teardown" finished-at="2025-10-07T16:16:34 IST" duration-ms="1950" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got closed...]]>
@@ -658,7 +658,7 @@
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC008_ContactUsPage -->
       <class name="testCases.TC005_MyRequestPage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T11:54:57 IST" name="setup" finished-at="2025-10-07T11:54:58 IST" duration-ms="1071" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T16:16:06 IST" name="setup" finished-at="2025-10-07T16:16:07 IST" duration-ms="860" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -677,7 +677,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T11:54:58 IST" name="login" finished-at="2025-10-07T11:55:08 IST" duration-ms="9585" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T16:16:07 IST" name="login" finished-at="2025-10-07T16:16:17 IST" duration-ms="9824" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on Profile logo...]]>
@@ -696,7 +696,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="myRequest()[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T11:55:08 IST" name="myRequest" finished-at="2025-10-07T11:55:09 IST" duration-ms="770" status="PASS">
+        <test-method signature="myRequest()[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T16:16:17 IST" name="myRequest" finished-at="2025-10-07T16:16:17 IST" duration-ms="673" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[******* Starting TC005_MyRequest ******]]>
@@ -715,14 +715,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- myRequest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T11:55:09 IST" name="logout" finished-at="2025-10-07T11:55:10 IST" duration-ms="1009" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T16:16:17 IST" name="logout" finished-at="2025-10-07T16:16:19 IST" duration-ms="1142" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout successfull...]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T11:55:10 IST" name="teardown" finished-at="2025-10-07T11:55:10 IST" duration-ms="507" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC005_MyRequestPage@3f270e0a]" started-at="2025-10-07T16:16:19 IST" name="teardown" finished-at="2025-10-07T16:16:19 IST" duration-ms="377" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got closed...]]>
@@ -731,7 +731,7 @@
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC005_MyRequestPage -->
       <class name="testCases.TC004_ProfilePage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T11:54:44 IST" name="setup" finished-at="2025-10-07T11:54:45 IST" duration-ms="1125" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T16:15:53 IST" name="setup" finished-at="2025-10-07T16:15:54 IST" duration-ms="952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -750,7 +750,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T11:54:45 IST" name="login" finished-at="2025-10-07T11:54:55 IST" duration-ms="9687" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T16:15:54 IST" name="login" finished-at="2025-10-07T16:16:04 IST" duration-ms="9711" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on Profile logo...]]>
@@ -769,7 +769,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="profilePage()[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T11:54:55 IST" name="profilePage" finished-at="2025-10-07T11:54:56 IST" duration-ms="662" status="PASS">
+        <test-method signature="profilePage()[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T16:16:04 IST" name="profilePage" finished-at="2025-10-07T16:16:05 IST" duration-ms="759" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[******* Starting TC004_ProfilePage ******]]>
@@ -788,14 +788,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- profilePage -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T11:54:56 IST" name="logout" finished-at="2025-10-07T11:54:57 IST" duration-ms="1109" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T16:16:05 IST" name="logout" finished-at="2025-10-07T16:16:06 IST" duration-ms="854" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout successfull...]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T11:54:57 IST" name="teardown" finished-at="2025-10-07T11:54:57 IST" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_ProfilePage@5adb0db3]" started-at="2025-10-07T16:16:06 IST" name="teardown" finished-at="2025-10-07T16:16:06 IST" duration-ms="331" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got closed...]]>
@@ -804,7 +804,7 @@
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC004_ProfilePage -->
       <class name="testCases.TC001_SignInTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T11:53:02 IST" name="setup" finished-at="2025-10-07T11:53:09 IST" duration-ms="6367" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T16:14:17 IST" name="setup" finished-at="2025-10-07T16:14:19 IST" duration-ms="2612" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -823,7 +823,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T11:53:09 IST" name="login" finished-at="2025-10-07T11:53:19 IST" duration-ms="10477" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T16:14:19 IST" name="login" finished-at="2025-10-07T16:14:29 IST" duration-ms="10031" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on Profile logo...]]>
@@ -842,18 +842,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verify_signin()[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T11:53:19 IST" name="verify_signin" finished-at="2025-10-07T11:53:19 IST" duration-ms="5" status="PASS">
+        <test-method signature="verify_signin()[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T16:14:29 IST" name="verify_signin" finished-at="2025-10-07T16:14:29 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_signin -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T11:53:19 IST" name="logout" finished-at="2025-10-07T11:53:20 IST" duration-ms="967" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T16:14:29 IST" name="logout" finished-at="2025-10-07T16:14:31 IST" duration-ms="1195" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout successfull...]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T11:53:20 IST" name="teardown" finished-at="2025-10-07T11:53:20 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_SignInTest@e19bb76]" started-at="2025-10-07T16:14:31 IST" name="teardown" finished-at="2025-10-07T16:14:31 IST" duration-ms="501" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got closed...]]>
@@ -862,7 +862,7 @@
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC001_SignInTest -->
       <class name="testCases.TC003_SearchSearvice">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T11:54:31 IST" name="setup" finished-at="2025-10-07T11:54:32 IST" duration-ms="861" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T16:15:40 IST" name="setup" finished-at="2025-10-07T16:15:41 IST" duration-ms="873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -881,7 +881,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T11:54:32 IST" name="login" finished-at="2025-10-07T11:54:41 IST" duration-ms="8980" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T16:15:41 IST" name="login" finished-at="2025-10-07T16:15:51 IST" duration-ms="9664" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on Profile logo...]]>
@@ -900,7 +900,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="search()[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T11:54:41 IST" name="search" finished-at="2025-10-07T11:54:42 IST" duration-ms="1474" status="PASS">
+        <test-method signature="search()[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T16:15:51 IST" name="search" finished-at="2025-10-07T16:15:52 IST" duration-ms="1344" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[******* Starting TC003_SearchSearvice ******]]>
@@ -916,14 +916,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T11:54:42 IST" name="logout" finished-at="2025-10-07T11:54:44 IST" duration-ms="1384" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T16:15:52 IST" name="logout" finished-at="2025-10-07T16:15:53 IST" duration-ms="976" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout successfull...]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T11:54:44 IST" name="teardown" finished-at="2025-10-07T11:54:44 IST" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_SearchSearvice@22295ec4]" started-at="2025-10-07T16:15:53 IST" name="teardown" finished-at="2025-10-07T16:15:53 IST" duration-ms="288" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got closed...]]>
