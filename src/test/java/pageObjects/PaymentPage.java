@@ -1,5 +1,5 @@
 package pageObjects;
-
+//This page Removed from application
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -13,7 +13,7 @@ public class PaymentPage extends BasePage {
     if (s.equals("https://hometriangle.com/dashboard/payments/overview")) {
       System.out.println("Successfully navigate to Payment page...");
     } else {
-      System.out.println("Naviget Unsuccessfull naviget to payment page...");
+      System.out.println("Naviget Unsuccessfull to payment page...");
       Assert.assertTrue(false);
     }
   }

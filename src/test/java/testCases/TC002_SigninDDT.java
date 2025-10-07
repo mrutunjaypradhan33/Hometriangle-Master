@@ -27,7 +27,7 @@ public class TC002_SigninDDT {
 
     @BeforeClass
     @Parameters({ "os", "browser" })
-    public void setup(String os, String br) throws IOException {
+    public void setup(String os, String br) throws IOException, InterruptedException {
         FileReader file = new FileReader(
                 "C:\\Users\\DELL\\.vscode\\hometriangle\\hometriangle\\src\\test\\resouces\\config.properties");
         p = new Properties();
@@ -51,6 +51,9 @@ public class TC002_SigninDDT {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(p.getProperty("appURL"));
+        // HomePage hp = new HomePage(driver);
+        // Thread.sleep(3000);
+        // hp.clickCity();
 }
 
 
@@ -61,7 +64,7 @@ public class TC002_SigninDDT {
         Reporter.log("******* Starting TC002_SignInDDT ******", true);
         try {
             HomePage hp = new HomePage(driver);
-            Thread.sleep(5000);
+            Thread.sleep(4000);
             hp.clickProfile();
             Reporter.log("Clicked on Profile logo...", true);
 
@@ -83,7 +86,7 @@ public class TC002_SigninDDT {
             if (exp.equalsIgnoreCase("Valid")) {
                 if (targetpage == true) {
                     Reporter.log("Login successfull...", true);
-                    Thread.sleep(5000);
+                    Thread.sleep(4000);
                     aws.clickProfile();
                     aws.clickLogout();
                     Assert.assertTrue(true);

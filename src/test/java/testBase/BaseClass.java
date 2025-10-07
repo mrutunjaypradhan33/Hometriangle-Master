@@ -95,7 +95,7 @@ public class BaseClass {
 		}
 		Reporter.log("Browser got launched...", true);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@BeforeMethod
@@ -104,7 +104,9 @@ public class BaseClass {
 		driver.get(p.getProperty("appURL"));
 		HomePage hp = new HomePage(driver);
 		hp.validation(driver.getCurrentUrl());
-		// Thread.sleep(3000);
+		// Thread.sleep(4000);
+		// hp.clickCity();
+		Thread.sleep(4000);
 		hp.clickProfile();
 		Reporter.log("Clicked on Profile logo...", true);
 

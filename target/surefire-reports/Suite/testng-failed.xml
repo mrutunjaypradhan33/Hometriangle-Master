@@ -8,15 +8,15 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC005_MyRequestPage">
+      <class name="testCases.TC001_SignInTest">
         <methods>
           <include name="teardown"/>
           <include name="logout"/>
           <include name="setup"/>
-          <include name="myRequest"/>
+          <include name="verify_signin"/>
           <include name="login"/>
         </methods>
-      </class> <!-- testCases.TC005_MyRequestPage -->
+      </class> <!-- testCases.TC001_SignInTest -->
     </classes>
   </test> <!-- chrometest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
