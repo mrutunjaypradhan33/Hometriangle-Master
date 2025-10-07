@@ -50,9 +50,10 @@ public class TC012_NearMePage {
             Reporter.log("****** Stated TC012_NearMePage ******", true);
             try {
                 String validation = driver.getTitle();
+                System.out.println(validation);
                 Reporter.log("Capture the Title...", true);
                 Reporter.log("Validate the title...", true);
-                if (validation.equals("Expert House Cleaning Services | Sparkling Clean Homes")) {
+                if (validation.equals("House Cleaning Services in Bangalore | Best Home Cleaning Services in Bangalore - HomeTriangle")) {
                     Assert.assertTrue(true);
                     Reporter.log("Successfully navigate to Near me page...", true);
                 } else {

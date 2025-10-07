@@ -25,7 +25,7 @@ public class HomePage extends BasePage {
         linkLocation.click();
     }
 
-    @FindBy(xpath = "//p[text()='Detect my location']")
+    @FindBy(xpath = "/html/body/div[12]/div/div/div/div[2]/div[1]/div[2]/button/div/div/p")
     WebElement linkCity;
 
     public void clickCity() {

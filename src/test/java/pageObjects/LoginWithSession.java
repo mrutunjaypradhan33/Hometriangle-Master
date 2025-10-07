@@ -48,7 +48,7 @@ public class LoginWithSession extends BasePage {
 
     public void validation(String s) {
         if (s.equals("Hire top rated service professionals in Bangalore")) {
-            System.out.println("succefully naviget to Home page...");
+            System.out.println("Succefully naviget to Home page...");
         } else {
             System.out.println("Unsuccessfull naviget to home page...");
             Assert.assertTrue(false);
@@ -64,7 +64,7 @@ public class LoginWithSession extends BasePage {
 
     public void validationProfile(String s) {
         if (s.equals("https://hometriangle.com/dashboard/profile")) {
-            System.out.println("succefully naviget to Profile page ...");
+            System.out.println("Succefully naviget to Profile page ...");
         } else{
             System.out.println("Unsuccessfull naviget to profile page...");
             Assert.assertTrue(false);

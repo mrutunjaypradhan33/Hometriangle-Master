@@ -1,5 +1,5 @@
 package testCases;
-
+//This page Removed from application
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
@@ -17,9 +17,9 @@ public class TC007_PaymentPage extends BaseClass {
             Reporter.log("****** Stated TC0007_PaymentPage *****", true);
             LoginWithSession lw = new LoginWithSession(driver);
             lw.clickProfile();
-            Reporter.log("click on profile logo...",true);
+            Reporter.log("Click on profile logo...",true);
             lw.profiilePagelink();
-            Reporter.log("click on profile link...",true);
+            Reporter.log("Click on profile link...",true);
             Profilepage pf = new Profilepage(driver);
             pf.paymentLink();
             Reporter.log("Click on payment page link...",true);
