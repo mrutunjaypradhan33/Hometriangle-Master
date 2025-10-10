@@ -122,7 +122,7 @@
           <version>3.5.1</version>
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>crossBrowserTesting.xml</suiteXmlFile>
+              <suiteXmlFile>parallelTesting.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>
