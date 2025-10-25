@@ -53,7 +53,7 @@ public class TC012_NearMePage {
                 System.out.println(validation);
                 Reporter.log("Capture the Title...", true);
                 Reporter.log("Validate the title...", true);
-                if (validation.equals("House Cleaning Services in Bangalore | Best Home Cleaning Services in Bangalore - HomeTriangle")) {
+                if (validation.equals("Expert House Cleaning Services | Sparkling Clean Homes")) {
                     Assert.assertTrue(true);
                     Reporter.log("Successfully navigate to Near me page...", true);
                 } else {
